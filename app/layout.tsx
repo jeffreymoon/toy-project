@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils";
 const spaceGrotesk = Space_Grotesk({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
-  title: "Kanban Todo",
-  description: "Kanban board application",
+  title: "feedme",
+  description: "웹 페이지 URL을 Markdown으로 변환해 ChatGPT·Claude에 바로 넘길 수 있는 서비스",
 };
 
 export default function RootLayout({
